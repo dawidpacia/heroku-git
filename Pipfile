@@ -9,6 +9,7 @@ verify_ssl = true
 behave = "*"
 django = "*"
 requests = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
