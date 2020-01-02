@@ -3,5 +3,10 @@
     "repository": "https://github.com/dawidpacia/heroku-git",
     "scripts": {
         "postdeploy": "python manage.py runserver"
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
     }
+  ]
 }
