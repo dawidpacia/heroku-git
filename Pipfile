@@ -6,10 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+psycopg2 = "*"
 behave = "*"
 django = "*"
 requests = "*"
 whitenoise = "*"
+django_heroku = "*"
 
 [requires]
 python_version = "3.7"
